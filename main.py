@@ -60,7 +60,7 @@ def render_display(data):
         if current_mode == MODE_CLOCK:
             spotify_display.show_clock()
         else:
-            spotify_display.show_message("Nothing playing", "Press KEY1 for next")
+            spotify_display.show_message("Nothing playing", "KEY1:next")
         return
     
     # Render based on mode
