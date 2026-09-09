@@ -1,0 +1,22 @@
+# config.py - Device configuration
+# COPY THIS FILE TO YOUR PICO AS config.py AND FILL IN YOUR VALUES
+# DO NOT COMMIT THIS FILE WITH REAL CREDENTIALS
+
+# WiFi credentials
+WIFI_SSID = "your-wifi-ssid"
+WIFI_PASS = "your-wifi-password"
+
+# Spotify API credentials (from developer.spotify.com/dashboard)
+SPOTIFY_CLIENT_ID = "your-client-id"
+SPOTIFY_REFRESH_TOKEN = "your-refresh-token"
+
+# Display settings
+DISPLAY_ROTATE = 90      # 0, 90, 180, 270 - portrait=90 or 270
+DISPLAY_CONTRAST = 128   # 0-255
+
+# Polling interval (seconds)
+SPOTIFY_POLL_INTERVAL = 10
+
+# Button pins (Pico-OLED-1.3 defaults)
+KEY0_PIN = 15   # GP15 - Mode cycle / Play-Pause (long)
+KEY1_PIN = 17   # GP17 - Next track / Prev (long)

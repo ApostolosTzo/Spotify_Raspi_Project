@@ -1,0 +1,16 @@
+# wokwi.toml - Wokwi simulation config for Pico 2 W + Pico-OLED-1.3
+
+[[board]]
+board = "pico2-w"
+
+# Pico-OLED-1.3 SPI connections (Waveshare default pinout)
+# Display: 64x128 SH1107, SPI mode
+# Buttons: KEY0=GP15, KEY1=GP17
+
+[[connections]]
+# SPI for SH1107
+# GP10 = SCK, GP11 = MOSI, GP9 = CS, GP8 = DC, GP12 = RST
+# Buttons already on board
+
+[files]
+# All .py files will be uploaded automatically
